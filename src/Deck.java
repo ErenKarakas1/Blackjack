@@ -79,14 +79,14 @@ public class Deck {
      * @return Deck's string representation
      */
     public String toString() {
-        String finalString;
-
-        finalString = "";
-
+        StringBuilder finalString;
+        
+        finalString = new StringBuilder();
+        
         for ( Card card : deck ) {
-            finalString += card + "\n";
+            finalString.append( card ).append( "\n" );
         }
 
-        return finalString;
+        return finalString.toString();
     }
 }
