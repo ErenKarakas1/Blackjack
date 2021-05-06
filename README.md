@@ -1,3 +1,3 @@
 # Blackjack
 
-A sample program to play BlackJack
+A sample program to play Blackjack
